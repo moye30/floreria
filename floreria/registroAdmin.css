@@ -1,0 +1,32 @@
+
+html, body {
+    height: 100%;
+}
+
+body{
+  display: grid;
+  place-items: center;
+  margin: 0;
+  padding: 0 24px;
+  background-image: url("media/fondocurd.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-card{
+  width: 100%;
+  padding: 70px 30px 44px;
+  border-radius: 24px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.login-card > .btn {
+  width: 100%;
+  height: 56px;
+  border: 0;
+  background: #cb75dc;
+  color: #f9f9f9;
+  font-weight: 600;
+  border-radius: 10px;
+}
